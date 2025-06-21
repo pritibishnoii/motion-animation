@@ -13,10 +13,29 @@ import MotionHook from "@/components/MotionHook";
 import ScrollAnimation from "@/components/ScrollAnimation";
 import UseScroll from "@/components/UseScroll";
 
+import SwappableCard from "@/components/SwappableCard";
+import RotateOnDrag from "@/components/RotateOnDrag";
+import GestureBasedImageGallery from "@/components/GestureBasedImageGallery";
+import StaggerItems from "@/components/StaggerItems";
+import Loader from "@/components/Loader";
+import PageScrollAnimation from "@/components/PageScrollAnimation";
+import GalleryAnimationY from "@/components/GalleryAnimationY";
+
 export default function Home () {
   return (
     <div className="">
+
+      {/* <PageScrollAnimation /> */ }
       <UseScroll />
+      {/* 
+
+      <Loader />
+      <StaggerItems />
+      <GalleryAnimationY />
+      <GestureBasedImageGallery />
+      <SwappableCard />
+      <RotateOnDrag />
+
       <MotionHook />
       <div className="m-8"> <AnimatedGallery /></div>
 
@@ -31,7 +50,7 @@ export default function Home () {
       <Button />
       <Bounc />
       <Varients />
-      <ScrollAnimation />
+      <ScrollAnimation /> */}
 
 
 
